@@ -1,6 +1,9 @@
-type = module
 name = Rules Throttle
 description = Provides a delay action to rules, to help reduce resource usage.
 backdrop = 1.x
+type = module
+
+maintainers[yorkshire-pudding] = Martin Price
+
 package = Rules
 dependencies[] = rules (>= 1.x-2.3.1)
